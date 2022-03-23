@@ -1,0 +1,48 @@
+.main-search{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-search h1{
+    width: 68%;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.main-search .input-search{
+    width: 500px;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid;
+    font-size: 18px;
+    outline: 0;
+}
+
+.form-search{
+    display: flex;
+}
+
+.form-search .button-search{
+    width: 70%;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #9200CC;
+    color: white;
+    margin: 20px auto;
+    height: 80px;
+}
+
+@media screen and (max-width: 690px) {
+
+    .main-search .input-search{
+        width: 300px;
+    }
+
+
+   
+}
+

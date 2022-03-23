@@ -1,0 +1,112 @@
+.nav-main{
+    background-color: #9200CC;
+    height: 150px;
+    max-height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+}
+
+/* INICIO -- ESTILIZAÇÃO DO BOTAO*/
+
+.nav-main .align-button{
+    display: flex;
+    align-items: center;
+}
+
+.nav-main .align-button #hidden{
+    display: flex;
+}
+
+.nav-main .align-button .links-nav{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    max-width: 500px;
+}
+
+.nav-main .align-button button{
+    display: flex;
+    background-color: #9200cc00;
+    color: white;
+    font-size: 25px;
+    justify-content: center;
+    width: 150px;  
+    border-style: none;
+    border-bottom: 1px solid white;
+    margin-left: 25px;
+    
+}
+
+.nav-main .align-button  button:hover{
+    transition: 500ms;
+    transform: scale(1.1)
+}
+
+.nav-main .align-button  button:active{
+    transition: 500ms;
+    transform: scale(0.9)
+}
+
+.nav-main .align-button .icon-nav{
+    display: none;
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+/* FIM -- ESTILIZAÇÃO DO BOTAO*/
+
+@media screen and (max-width: 690px) {
+
+    /* INICIO -- ESTILIZAÇÃO DO BOTAO*/
+
+    .nav-main .align-button .links-nav{
+        margin-left: 0px;
+    }
+
+    .nav-main .align-button .icon-nav{
+        display: flex;
+        margin-left: 15px;
+    }
+
+    .nav-main .align-button  button{
+        display: none;
+    }
+
+    .nav-main .align-button #hidden button{
+        display: flex;
+        margin: 20px auto;
+        color: white;
+        font-size: 30px;
+        box-shadow: 0px 0px 0px;
+        justify-content: center;
+        width: 155px;  
+        border-radius: 0px;
+        border-bottom: 1px solid white;
+    }
+
+    .nav-main .align-button #hidden button:hover{
+        transition: 500ms;
+        transform: scale(1.1)
+    }
+
+    .nav-main .align-button #hidden button:active{
+        transition: 500ms;
+        transform: scale(0.9)
+    }
+
+    .nav-main .align-button #hidden{
+        position: absolute;
+        top:120px;
+        height: 260px;
+        max-height: 250px;
+        width: 100%;
+        background-color: #9200CC;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+    /* FIM -- ESTILIZAÇÃO DO BOTAO*/
+}
